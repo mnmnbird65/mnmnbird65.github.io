@@ -1,0 +1,67 @@
+/* Styles for index.html */
+header,h1,h2,h3,footer {
+    background-color: #522e1e;
+    color:rgb(250, 233, 215)
+}
+
+nav {
+    background-color: #13283c;
+    color: #e8edf4
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.nav-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.nav ul a {
+    color: #e8edf4;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.welcome {
+    background-color: #F2E3D5;
+    color: #452315;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* styles for account.html */
+.account-info {
+    background-color: #e0eff4;
+    color: #13283c;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.saved-recipes {
+    background-color: #e8edf4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.saved-recipes h3 {
+    margin-top: 0;
+}  
+.saved-recipes ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Styles for gallery.html */
+.recipe-gallery {
+    display: grid;
+    gap: 20px;
+}
