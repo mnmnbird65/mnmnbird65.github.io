@@ -10,6 +10,9 @@ header {
     margin-bottom: 20px;
     display: block;
 }
+.heaeder-content img{
+    width: 1000px;
+}
 
 nav {
     background-color: #badfa2;
