@@ -3,6 +3,13 @@ header,h1,h2,h3,footer {
     background-color: #522e1e;
     color:rgb(250, 233, 215)
 }
+header {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+}
 
 nav {
     background-color: #badfa2;
