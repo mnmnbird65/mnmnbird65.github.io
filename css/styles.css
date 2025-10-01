@@ -1,7 +1,8 @@
 /* Styles for index.html */
 header,h1,h2,h3,footer {
     background-color: #522e1e;
-    color:rgb(250, 233, 215)
+    color:rgb(250, 233, 215);
+    text-align: center;
 }
 header {
     padding: 20px;
@@ -12,7 +13,7 @@ header {
 }
 
 nav {
-    background-color: #badfa2;
+    background-color: #234b5f;
     color: #e8edf4
     padding: 10px;
     margin-bottom: 20px;
