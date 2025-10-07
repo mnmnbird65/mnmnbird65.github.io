@@ -95,26 +95,45 @@ main {
     gap: 20px;
 }
 
-/* Media Queries */
-/* Tablet */
-@media (min-width: 600px){
-    .gallery {
+/* Tablets (portrait and landscape) */
+@media (max-width: 992px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    }
+  main section, main article, .content-box {
+    flex: 1 1 100%;
+  }
 }
 
-/* Desktop */
-@media (min-width: 992px){
-    nav ul{
-        margin-right: 40px;
-    }
-    #header-content {
-        text-align: left;
-        max-width: 1100px;
-        margin: auto;
-        display: flex;
-    }
-    #header-content h1{
-        font-size: 2.2em;
-    }
+/* Mobile phones */
+@media (max-width: 600px) {
+  header {
+    font-size: 1.2em;
+    padding: 0.8em 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 8px 0;
+  }
+
+  main {
+    flex-direction: column;
+    margin: 1em 0;
+  }
+
+  .content-box, main section, main article {
+    flex: 1 1 100%;
+    padding: 0.8em;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
 }
