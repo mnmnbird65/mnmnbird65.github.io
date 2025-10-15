@@ -7,9 +7,20 @@ header {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+.header-text {
+    text-align: left;
+}
+#header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
 #header-content img {
-    width: 100%;
     max-height: 70vh;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* Navigation */
