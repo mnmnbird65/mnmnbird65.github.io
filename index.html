@@ -11,28 +11,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recciccippi Misssissippi - Home</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
-    <div id="homepage">
-        <!-- Use the header area for the website name or logo -->
-        <header>
-            <div id="header-content">
-            <h1><span>&#9749;</span> Reccippippi Mississippi</h1>
-            <h3>Share, Inpsire, Cook</h3>
-            <img src="images/OIP.webp" alt="dining table with food">
-            </div>
-        </header>
-
-        <nav>
-        <div class="nav-title">
+    <!-- Mobile Navigation -->
+    <button id="hamburger">☰</button>
+    <nav class="mobile-nav">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="gallery.html">Gallery</a>
             <a href="nutrition.html">Nutrition</a>
             <a href="diet.html">Diet</a>
             <a href="contact.html">Contact</a>
-        </div>
-        </nav>
+    <a class="menu-icon" onclick="hamburger()">
+    <div>&#9776;</div>
+    </a>
+    </nav>
+
+    <header>
+    <div id="header-content">
+            <h1><span>&#9749;</span> Reccippippi Mississippi</h1>
+            <h3>Share, Inpsire, Cook</h3>
+            <img src="images/OIP.webp" alt="dining table with food">
+    </div>
+    </header>
+    <nav class="tab-desk">
+     <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="nutrition.html">Nutrition</a>
+            <a href="diet.html">Diet</a>
+            <a href="contact.html">Contact</a>
+     </ul>
+    </nav>
+
         <!-- Use the main area to add the main content of the webpage -->
          <main>
             <div class="welcome">
@@ -45,6 +58,8 @@
         <p>&copy; 2024 Reccippippi Mississippi. All rights reserved.</p>
         <p>Contact us:<a href="mailto:contact@recciccippiM.net">contact@recciccippiM.net</a>
          </footer>
+
+         <script src="scripts/script.js"></script>
     </div>
 
 </body>
