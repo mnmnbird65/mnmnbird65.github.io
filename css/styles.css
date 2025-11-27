@@ -142,6 +142,11 @@ main {
     box-shadow: 0 0 10px rgba(0,0,0,0.08)
 }
 
+.nutrition-table th, .nutrition-table td {
+    border: 1px solid #c8b8a8;
+    padding: 1em;
+}
+
 .nutrition-table th {
     background-color: #f4c096;
     text-align: left;
