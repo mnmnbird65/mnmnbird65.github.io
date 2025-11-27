@@ -75,6 +75,26 @@ main {
     margin: 0 auto;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 /* About page lists */
 #about ul {
     padding: 0;
