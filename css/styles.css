@@ -135,14 +135,19 @@ main {
 .nutrition-table {
     width: 100%;
     border-collapse: collapse;
+    margin: 1.5em 0;
+    background-color: #fffdf7;
     border-radius: 10px;
+    overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.08)
 }
 
 .nutrition-table th {
+    background-color: #f4c096;
     text-align: left;
     padding: 1em;
     font-size: 1.1em;
+    color: #333;
 }
 
 .nutrition-table td {
