@@ -113,6 +113,7 @@ main {
     margin: 40px auto;
     background: #fff;
     border-radius: 20px;
+    overflow: hidden;
     font-family: "DM SErif Display", serif;
 }
 
@@ -126,6 +127,7 @@ main {
     top: -55px;
     padding: 12px 20px;
     font-size: 1.8em;
+    width: fit-content;
     border-radius: 0 12px 12px 0;
 }
 
