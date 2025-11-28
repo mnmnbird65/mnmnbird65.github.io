@@ -111,7 +111,6 @@ main {
 
 .section-title {
     font-size: 2.2em;
-    color: #373684;
     border-left: 8px solid #6c6af0;
     padding-left: 15px;
     margin-bottom: 20px;
@@ -120,7 +119,6 @@ main {
 .sub-title {
     margin-top: 25px;
     font-size: 1.5em;
-    color: #4b4ac9;
     border-bottom: 2px solid;
     padding-bottom: 5px;
 }
@@ -138,10 +136,6 @@ main {
 .styled-list li {
     margin-bottom: 8px;
     padding-left: 5px;
-}
-
-.styled-list li:hover {
-    color: #373684;
 }
 
 
