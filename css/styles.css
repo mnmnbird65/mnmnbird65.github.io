@@ -17,10 +17,55 @@ header {
     padding: 20px;
 }
 #header-content img {
-    max-height: 70vh;
     width: 200px;
     height: auto;
     border-radius: 10px;
+}
+
+/* hamburger button */
+.hamburger-btn {
+    display: none;
+    font-size: 2em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Mobile Nav (hidden by default) */
+.mobile-nav {
+    display: none;
+    background: #eaeef0;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.mobile-nav a {
+    padding: 12px 0;
+    color: #522e1e;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #c3c7cc;
+}
+
+.mobile-nav a:last-child {
+    border-bottom: none;
+}
+
+.mobile-nav a:hover {
+    color: #000;
+}
+
+/* Show hamburger + mobile nav ONLY on mobile */
+@media (max-width: 768px) {
+    .hamburger-btn {
+        display: block;
+    }
+
+    .tab-desk {
+        display: none;
+    }
 }
 
 /* Navigation */
